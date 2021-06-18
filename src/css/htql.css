@@ -1,0 +1,41 @@
+.htql {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    background: url('/public/images/lake-1802337_640.jpg');
+    padding: 6em;
+    border-radius: 8px;
+}
+
+input[type="text"], input[type="password"] {
+    height: 36px;
+    border-radius: 4px;
+    border: 1px solid #d8d7d7;
+    padding-left: 8px;
+    background: none;
+    outline: none;
+    color: rgb(235, 230, 230);
+}
+
+input[type="submit"] {
+    width: 50%;
+    margin: 0 auto;
+    padding: 12px 0;
+    background-color: #d92b34;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 8px;
+}
+
+label {
+    color: white
+}
